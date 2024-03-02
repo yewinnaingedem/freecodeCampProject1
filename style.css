@@ -1,0 +1,155 @@
+
+* {
+    box-sizing : border-box ;
+  }
+  .header {
+  text-align : center  ;
+  }
+  #title {
+    letter-spacing : 2px ;
+  }
+  #description {
+    font-size : 18px ;
+    letter-spacing : 1px ;
+  }
+  body {
+    color : white ;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeYK9v37EFLe9W-2-Z9XqlLy80Ts5e2spNfQ&usqp=CAU');
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; 
+  }
+  .form-group {
+    margin-bottom : 5px ;
+  }
+  #survey-form  {
+    border-radius : 5px ;
+    overflow : hidden ;
+    width : 70%  ;
+    background : tomato ;
+    margin : 15px auto ;
+    padding : 20px ;
+    box-shadow : 0px -5px 15px 1px  green ;
+    background : linear-gradient(80deg, tomato , black ) ;
+  }
+  #email-label , #select-label {
+    display : block ;
+    font-weight : 500 ;
+    font-size : 18px ;
+    margin-bottom : 5px ;
+  }
+  #survey-form #name-label , #survey-form #number-label {
+    display : block ;
+    font-weight : 500 ;
+    font-size : 18px ;
+    margin-bottom : 5px ;
+  }
+  input[type="text"]  
+    {
+    width : 100% ;
+    outline : none ;
+    letter-spacing : 2px ;
+    padding : 10px 15px ;
+    font-weight  : 300 ;
+    border-radius : 5px ;
+  }
+  #survey-form #email ,  #survey-form #number {
+    width : 100% ;
+    outline : none ;
+    letter-spacing : 2px ;
+    padding : 10px 15px ;
+    font-weight  : 300 ;
+    border-radius : 5px ; 
+  }
+  .option {
+    display : flex ;
+    align-items : center ;
+  }
+  fieldset {
+    border-radius : 5px ;
+    margin : 5px 0;
+  }
+  legend {
+    font-weight : lighter ;
+    letter-spacing : 1px ;
+  }
+  .option input {
+    width : 20px ;
+  }
+  .option label {
+    width : 80% ;
+  }
+  select {
+    min-height : 2em ;
+  }
+   #survey-form #dropdown{
+    width : 100% ;
+    display : block ;
+    padding : 5px 10px ;
+    border-radius : 5px ;
+  }
+   #textarea-label {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+      
+      margin-bottom: 10px;
+      display: block; 
+    }
+    
+    /* Style for the textarea */
+    #feedback {
+      width: 100%; 
+    max-width: 100%; 
+      padding :  10px ;
+      font-family: Arial, sans-serif;
+  font-size: 14px;
+      border: 1px solid #ccc; 
+      border-radius: 5px; 
+      resize: vertical; 
+    }
+    #survey-form  input[type="checkbox"] {
+      margin-right : 15px ;
+      margin-left : 15px ;
+    }
+  fieldset:last-of-type {
+    border: 0;
+    padding : 0 ;
+  }
+  #survey-form #submit {
+    padding : 10px 15px ;
+    border-radius : 5px ;
+    outline : none ;
+  width : 100% ;  letter-spacing  : 1px ; 
+    font-weight  :bold ;
+    font-size : 15px ;
+    cursor : pointer ;
+    margin-top : 15px ;
+    box-shadow : 2px 2px 0 0 black ;
+    background: linear-gradient(185deg , tomato, blue);
+  }
+  input[type="submit"]:hover {
+    background : linear-gradient (rgb(0 , 0 , 255) , rgba(255 , 0 , 0 , 0.7));
+  }
+  footer {
+    color : black ;
+    
+    font-weight : bold ;
+    text-align : end ;
+  }
+  footer p {
+    font-size : 18px ;
+  }
+  
+  a:active {
+    color : tomato ;
+  }
+  a:hover {
+    color : white ;
+  }
+  a:visited {
+    color : black ;
+  }
+  
+  
+  

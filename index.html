@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Suvery Form</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="title">Suvery Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <form id="survey-form" method="POST">
+        <div class="form-group">
+            <label id="name-label" for="name">Name:</label>
+            <input placeholder="Enter Your Name" id="name" type="text" required>
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="name">Email</label>
+            <input placeholder="Enter Your Email" id="email" type="email" required>
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="name">Phone</label>
+            <input placeholder="Enter Your Phone" id="number" type="number" pattern="[0-9]{5,9}" min="10000"
+                max="999999999" required>
+        </div>
+        <div class="form-group">
+            <label for="country" id="select-label">Where Do You Live </label>
+            <select name="country" id="dropdown">
+                <option value="myanmar">Myanmar</option>
+                <option value="thailand">ThaiLand</option>
+                <option value="singapore">Singaproe</option>
+            </select>
+        </div>
+        <fieldset>
+            <legend>Would you recommond FCC ?</legend>
+            <div>
+                <input id="definitely" name="recommend" value="definitely" type="checkbox">
+                <label for="definitely">Definitely</label>
+            </div>
+            <div>
+                <input id="notSure" name="recommend" value="notSure" type="checkbox">
+                <label for="notSure">Not Sure</label>
+            </div>
+            <div>
+                <input id="not" name="recommend" value="not" type="checkbox">
+                <label for="not">Not</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Where You Find Free code camp</legend>
+            <div class="radio-group">
+                <div class="option 1">
+                    <input id="youtube" type="radio" value="youtube" name="address">
+                    <label for="youtube">YouTube </label>
+                </div>
+                <div class="option 1">
+                    <input id="instagram" type="radio" value="instagram" name="address">
+                    <label for="instagram">Instagram </label>
+                </div>
+                <div class="option 1">
+                    <input id="twitter" type="radio" value="twitter" name="address">
+                    <label for="twitter">Twitter</label>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label for="feedback" id="textarea-label">How do you like it?</label>
+            <textarea name="feedback" id="feedback" rows="3" cols="50" placeholder="Enter Your FeedBack"></textarea>
+        </fieldset>
+        <input type="submit" id="submit">
+    </form>
+    <footer>
+        <p>Visit Our <a
+                href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form">Website</a>
+        </p>
+    </footer>
+</body>
+
+</html>
